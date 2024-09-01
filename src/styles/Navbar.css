@@ -1,0 +1,186 @@
+
+/* navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+}
+
+
+/* .logo {
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: 'Courier New', Courier, monospace;
+  color: aqua;
+  text-decoration: none;
+   */
+
+
+.nav-links {
+  
+  display: flex;
+  gap: 2rem;
+  /* Center links horizontally */
+  justify-content: center;
+  flex: 1; /* Take up available space */
+  
+  
+}
+
+
+.nav-links a{
+  color:aqua;
+  text-decoration: none;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  /* font-size: 2rem; */
+  align-items: center;
+  
+  
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Container */
+.desktop-nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.menus {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Menu Items */
+.menu-item {
+  position: relative; /* Required for dropdown positioning */
+}
+
+.menu-item a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-item a:hover,
+.menu-item.active > a {
+  background-color: #555;
+}
+
+/* Dropdown Styles */
+.dropdown {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 40%; /* Position below the parent menu item */
+  left: 0;
+  background-color: #333;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* z-index: 100rem; Ensure dropdown appears above other elements */
+}
+
+.dropdown-submenu {
+  left: 40%; /* Position submenu to the right of the parent dropdown */
+  top: 0;
+}
+
+.dropdown > .menu-item {
+  width: 100px; /* Set a fixed width for dropdown items */
+}
+
+.dropdown > .menu-item > a {
+  padding: 10px;
+}
+
+.dropdown.show {
+  display: block; /* Show dropdown when active */
+}
+
+.dropdown .menu-item a {
+  background-color: #333;
+}
+
+.dropdown .menu-item a:hover {
+  background-color: #555;
+}
+
+/* Optional: Styles for a deeper dropdown level */
+.dropdown-submenu .dropdown {
+  top: 0;
+   /* left: 100%;  */
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+     display: none; 
+    flex-direction: column;
+    /* width: 100%; */
+    position: fixed;
+    top: 5px;
+    left: 0;
+    /* height: 100%; */
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+     background-color: #333; 
+     transition: transform 0.3s ease; /* Smooth transition */
+  transform: translateY(-10%); /* Initially hidden above the viewport */
+
+  }
+
+  .nav-links a{
+    color:aqua;
+    text-decoration: none;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 2rem; */
+    align-items: center;
+    
+    
+  }
+  .nav-links.active {
+      display: flex;
+      transform: translateY(0); /* Slide into view */
+    }
+  .navbar{
+      transform: none;
+  }
+
+  .menu-toggle {
+    display: block;
+     visibility:visible; 
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+  }
+  
+}

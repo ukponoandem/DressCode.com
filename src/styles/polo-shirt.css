@@ -1,0 +1,28 @@
+.polo-shirt-text {
+    text-align: center;
+    margin: 3px;
+    font-size: 24px;
+  }
+  
+  .polo-shirt-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     background-color:#E2E5E6;  
+  }
+  
+  .polo-shirt-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .polo-shirt-item {
+    width: 30rem;
+     border-radius: 8px; 
+  }
+  
+  .polo-shirt-price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+  }

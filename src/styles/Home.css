@@ -1,0 +1,64 @@
+.header{
+    margin: 0 auto;
+
+}
+
+
+
+.images{
+    width: 100%;
+    height: auto;
+    /* margin-left: 5rem; */
+/* margin-bottom: 6rem; */
+margin: 0 auto;
+    }
+
+    /* .images2{
+        width: 30%;
+        height: 30%;
+         margin-right: rem; 
+         
+    }
+    .images3{
+        width: 30%;
+        height: 30%;
+        margin-right: 6rem;
+    } */
+     .display{
+        text-decoration: none;
+        color: red;
+        border: 2px solid black;
+       margin-right: 1rem ;
+       font-size: 1.5rem;
+       
+     }
+     .display1{
+        text-decoration: none;
+        color: red;
+        border: 2px solid black;
+       margin-right: 1rem auto;
+       font-size: 1.5rem;
+
+     }
+        
+       
+       
+     
+    .header h1{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+        margin: 0 auto;
+        font-weight:lighter ;
+    }
+
+.header{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+

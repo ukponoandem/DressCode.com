@@ -1,0 +1,29 @@
+.tailor-text {
+    text-align: center;
+    margin: 3px;
+    font-size: 24px;
+  }
+  
+  .tailor-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     background-color:#E2E5E6;  
+  }
+  
+  .tailor-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .tailor-item {
+    width: 30rem;
+     border-radius: 8px; 
+  }
+  
+  .tailor-price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  

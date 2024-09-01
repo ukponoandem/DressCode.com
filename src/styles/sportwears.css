@@ -1,0 +1,29 @@
+.sport-text {
+    text-align: center;
+    margin: 3px;
+    font-size: 24px;
+  }
+  
+  .sport-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     background-color:#E2E5E6;  
+  }
+  
+  .sport-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .sport-item {
+    width: 30rem;
+     border-radius: 8px; 
+  }
+  
+  .sport-price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,28 @@
+.trouser-cargo-text {
+  text-align: center;
+  margin: 3px;
+  font-size: 24px;
+}
+
+.trouser-cargo-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   background-color:#E2E5E6;  
+}
+
+.trouser-cargo-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.trouser-cargo-item {
+  width: 30rem;
+   border-radius: 8px; 
+}
+
+.trouser-cargo-price {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+}
